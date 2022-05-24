@@ -1,0 +1,251 @@
+/*---nesting----*/
+header .background-nav {
+  background-color: #495371;
+}
+header nav .background-nav {
+  background-color: #495371;
+}
+header nav div .imagenes-logo {
+  width: 75px;
+  height: 75px;
+}
+header nav div div ul li a {
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #495371;
+  padding: 20px;
+}
+.footer img {
+  width: 200px;
+  height: 200px;
+}
+.footer ul li {
+  display: flex;
+  list-style: none;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: rgb(111, 110, 110);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px 2px black;
+}
+.footer div a {
+  text-decoration: none;
+  color: rgb(111, 110, 110);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px 2px black;
+}
+.footer div a img {
+  width: 50px;
+  height: 50px;
+}
+
+body .titulo-principal {
+  background-color: #98B4AA;
+  width: 100%;
+  height: 100%;
+}
+body .titulo-principal a {
+  font-display: flex;
+  align-items: flex-start;
+  background-color: #98B4AA;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #495371;
+}
+body .titulo-principal a:hover {
+  color: tomato;
+}
+
+.main {
+  width: 100%;
+  height: 80vh;
+  background: linear-gradient(rgba(69, 67, 67, 0.46), rgba(165, 146, 146, 0.455)), url("../imagenes/atardecerSA.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-attachment: fixed;
+  align-items: center;
+  color: rgb(69, 51, 44);
+}
+.main h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.main p {
+  font-size: 30px;
+}
+.main a {
+  background-color: rgba(116, 149, 154, 0.4980392157);
+  text-decoration: none;
+  color: darkslateblue;
+  font-size: 25px;
+  margin-top: 25px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+div div div h2 .acordeon {
+  background-color: #B4CFB0;
+  color: rgb(77, 67, 144);
+}
+div div div div div {
+  background-color: rgba(120, 147, 149, 0.4470588235);
+  color: rgb(77, 67, 144);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-attachment: fixed;
+  align-items: center;
+}
+div div div div div .acordeon-uno p {
+  font-size: 15px;
+}
+div div div div div a {
+  background-color: rgba(116, 149, 154, 0.4980392157);
+  text-decoration: none;
+  color: darkslateblue;
+  font-size: 15px;
+  margin-top: 25px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+/*seccion nosotros */
+.mapa div {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  background-color: #FFEEEE;
+  color: rgb(77, 67, 144);
+}
+.mapa div iframe {
+  width: 600px;
+  height: 400px;
+}
+.mapa div div {
+  margin: 40px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFEEEE;
+  text-decoration: none;
+  color: darkslateblue;
+  font-size: 25px;
+  margin-top: 25px;
+  padding: 10px;
+  border-radius: 15px;
+}
+.mapa div div h2 {
+  font-size: 20px;
+}
+.mapa div div p {
+  font-size: 15px;
+}
+.mapa div div a {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: #FFEEEE;
+  text-decoration: none;
+  color: darkslateblue;
+  font-size: 25px;
+  margin-top: 25px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+/*seccion servicios*/
+.rastrojo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+.rastrojo div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  background-color: #FFEEEE;
+  color: rgb(77, 67, 144);
+}
+.rastrojo div img {
+  width: 600px;
+  height: 400px;
+}
+.rastrojo div .titulo-santaana h2 {
+  font-size: 20px;
+}
+.rastrojo div .titulo-santaana p {
+  font-size: 15px;
+}
+.rastrojo div .titulo-santaana a {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: #FFEEEE;
+  text-decoration: none;
+  color: darkslateblue;
+  font-size: 25px;
+  margin-top: 25px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.asado {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 10px;
+}
+.asado div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  background-color: #FFEEEE;
+  color: rgb(77, 67, 144);
+}
+.asado div img {
+  width: 600px;
+  height: 400px;
+}
+.asado div .titulo-santaana h2 {
+  font-size: 20px;
+}
+.asado div .titulo-santaana p {
+  font-size: 15px;
+}
+.asado div .titulo-santaana a {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: #FFEEEE;
+  text-decoration: none;
+  color: darkslateblue;
+  font-size: 25px;
+  margin-top: 25px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+/*  seccion contacto  */
+
+/*# sourceMappingURL=style.css.map */

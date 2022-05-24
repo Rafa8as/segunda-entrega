@@ -1,0 +1,264 @@
+/*---nesting----*/
+
+@import '../scss/components/header';
+@import '../scss/components/footer';
+
+body {
+    .titulo-principal {
+        background-color: #98B4AA;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .titulo-principal a {
+        font-display: flex;
+        align-items: flex-start;
+        background-color: #98B4AA;
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        color: #495371;
+
+        &:hover {
+            color: tomato;
+        }
+
+    }
+
+    
+}
+
+.main {
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(69, 67, 67, 0.46), rgba(165, 146, 146, 0.455)), url("../imagenes/atardecerSA.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-attachment: fixed;
+    align-items: center;
+    color: rgb(69, 51, 44);
+
+    h1 {
+        font-size: 50px;
+
+        font-weight: bold;
+
+
+    }
+
+    p {
+        font-size: 30px;
+
+    }
+
+    a {
+        background-color: #74959a7f;
+        text-decoration: none;
+        color: darkslateblue;
+        font-size: 25px;
+        margin-top: 25px;
+        padding: 10px;
+        border-radius: 15px;
+
+    }
+}
+
+div {
+    div {
+        div {
+            h2 {
+                .acordeon {
+                    background-color: #B4CFB0;
+                    color: rgb(77, 67, 144);
+
+
+                }
+
+            }
+
+            div {
+                div {
+                    background-color: #78939572;
+                    color: rgb(77, 67, 144);
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    background-attachment: fixed;
+                    align-items: center;
+
+                    .acordeon-uno p {
+                        font-size: 15px;
+                    }
+
+                    a {
+                        background-color: #74959a7f;
+                        text-decoration: none;
+                        color: darkslateblue;
+                        font-size: 15px;
+                        margin-top: 25px;
+                        padding: 10px;
+                        border-radius: 15px;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+/*seccion nosotros */
+.mapa {
+
+    div {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        background-color: #FFEEEE;
+        color: rgb(77, 67, 144);
+
+        iframe {
+            width: 600px;
+            height: 400px;
+
+        }
+
+        div {
+
+            margin: 40px;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #FFEEEE;
+            text-decoration: none;
+            color: darkslateblue;
+            font-size: 25px;
+            margin-top: 25px;
+            padding: 10px;
+            border-radius: 15px;
+
+
+
+            h2 {font-size: 20px;}
+
+            p {font-size: 15px;}
+
+            a {
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                background-color: #FFEEEE;
+                text-decoration: none;
+                color: darkslateblue;
+                font-size: 25px;
+                margin-top: 25px;
+                padding: 10px;
+                border-radius: 15px;
+
+
+            }
+        }
+    }
+
+}
+
+/*seccion servicios*/
+
+.rastrojo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        text-align: center;
+        background-color: #FFEEEE;
+        color: rgb(77, 67, 144);
+
+        img {
+            width: 600px;
+            height: 400px;
+        }
+    }
+
+    div {
+        .titulo-santaana {
+            h2 {
+                font-size: 20px;
+            }
+
+            p {font-size: 15px;}
+
+            a {
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                background-color: #FFEEEE;
+                text-decoration: none;
+                color: darkslateblue;
+                font-size: 25px;
+                margin-top: 25px;
+                padding: 10px;
+                border-radius: 15px;
+            }
+        }
+    }
+}
+
+.asado {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 10px;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        text-align: center;
+        background-color: #FFEEEE;
+        color: rgb(77, 67, 144);
+
+        img {
+            width: 600px;
+            height: 400px;
+        }
+    }
+
+    div {
+        .titulo-santaana {
+            h2 {font-size: 20px;}
+
+            p {font-size: 15px;}
+
+            a {
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                background-color: #FFEEEE;
+                text-decoration: none;
+                color: darkslateblue;
+                font-size: 25px;
+                margin-top: 25px;
+                padding: 10px;
+                border-radius: 15px;
+            }
+        }
+    }
+}
+
+/*  seccion contacto  */
