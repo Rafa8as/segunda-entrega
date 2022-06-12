@@ -5,7 +5,7 @@
 
 body {
     .titulo-principal {
-        background-color: #98B4AA;
+        background-color: #E5E3C9;
         width: 100%;
         height: 100%;
 
@@ -14,7 +14,7 @@ body {
     .titulo-principal a {
         font-display: flex;
         align-items: flex-start;
-        background-color: #98B4AA;
+        
         width: 100%;
         height: 100%;
         text-decoration: none;
@@ -207,7 +207,7 @@ div {
                 align-items: center;
                 background-color: #FFEEEE;
                 text-decoration: none;
-                color: darkslateblue;
+                color: tomato;
                 font-size: 25px;
                 margin-top: 25px;
                 padding: 10px;
@@ -261,4 +261,36 @@ div {
     }
 }
 
+/* seccion galeria */
+.carrusel {
+    a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        text-align: center;
+        background-color: #FFEEEE;
+        color: rgb(77, 67, 144);
+        font-size: 25px;
+        margin-top: 25px;
+        padding: 10px;
+        border-radius: 15px;
+
+        
+    }
+
+}
+
 /*  seccion contacto  */
+.formulario {
+    background-color: #B4CFB0;
+
+}
+.formulario-uno {
+    background-color: #FFEEEE;
+    color: #495371;
+    font-size: 15px;
+    margin: 0%;
+    padding: 0%;
+}

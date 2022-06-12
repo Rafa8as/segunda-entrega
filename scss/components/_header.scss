@@ -1,6 +1,9 @@
 header {
     .background-nav {
-        background-color: #495371;
+        background-color: #F3E9DD;
+        &:hover {
+            color: tomato;
+        }
     }
 
     nav {
@@ -17,7 +20,13 @@ header {
             div {
                 ul {
                     li {
-                        a {align-items: center;}
+                        a {align-items: center;
+                            &:hover {
+                                color: #F3E9DD;
+                            }
+                            
+                            }
+                        
                     }
 
                 }
