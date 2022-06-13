@@ -2,12 +2,12 @@
 
 @import '../scss/components/header';
 @import '../scss/components/footer';
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@100&display=swap');
 body {
     .titulo-principal {
         background-color: #E5E3C9;
         width: 100%;
-        height: 100%;
+        height: 90%;
 
     }
 
@@ -16,7 +16,7 @@ body {
         align-items: flex-start;
         
         width: 100%;
-        height: 100%;
+        height: 90%;
         text-decoration: none;
         color: #495371;
 
@@ -109,6 +109,11 @@ div {
             }
         }
     }
+}
+.imagen-acordeon {
+    width: 80%;
+    height: 80vh;
+    align-items: center;
 }
 
 
@@ -293,4 +298,6 @@ div {
     font-size: 15px;
     margin: 0%;
     padding: 0%;
+    width: 100%;
+    height: 100%;
 }

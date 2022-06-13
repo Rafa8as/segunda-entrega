@@ -1,4 +1,5 @@
 /*---nesting----*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@100&display=swap");
 header .background-nav {
   background-color: #F3E9DD;
 }
@@ -23,7 +24,7 @@ header nav div div ul li a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #495371;
+  background-color: #F3E9DD;
   padding: 20px;
 }
 .footer img {
@@ -56,13 +57,13 @@ header nav div div ul li a:hover {
 body .titulo-principal {
   background-color: #E5E3C9;
   width: 100%;
-  height: 100%;
+  height: 90%;
 }
 body .titulo-principal a {
   font-display: flex;
   align-items: flex-start;
   width: 100%;
-  height: 100%;
+  height: 90%;
   text-decoration: none;
   color: #495371;
 }
@@ -125,6 +126,12 @@ div div div div div a {
   margin-top: 25px;
   padding: 10px;
   border-radius: 15px;
+}
+
+.imagen-acordeon {
+  width: 80%;
+  height: 80vh;
+  align-items: center;
 }
 
 /*seccion nosotros */
@@ -278,6 +285,8 @@ div div div div div a {
   font-size: 15px;
   margin: 0%;
   padding: 0%;
+  width: 100%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
