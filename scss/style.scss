@@ -8,6 +8,8 @@ body {
         background-color: #E5E3C9;
         width: 100%;
         height: 90%;
+        display: flex;
+        align-items: flex-start;
 
     }
 
@@ -44,16 +46,25 @@ body {
     color: rgb(69, 51, 44);
     
 
-    h1 {
-        font-size: 50px;
+    h2 {
+        font-size: 25px;
 
         font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
 
 
     }
 
     p {
-        font-size: 30px;
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        padding: 10px;
 
     }
 
@@ -61,7 +72,7 @@ body {
         background-color: #74959a7f;
         text-decoration: none;
         color: darkslateblue;
-        font-size: 25px;
+        font-size: 20px;
         margin-top: 25px;
         padding: 10px;
         border-radius: 15px;
@@ -94,6 +105,11 @@ div {
 
                     .acordeon-uno p {
                         font-size: 15px;
+                        margin-top: 20px;
+                         margin-bottom: 20px;
+                         margin-bottom: 20px;
+                         margin-left: 20px;
+                         padding: 10px;
                     }
 
                     a {
@@ -112,8 +128,8 @@ div {
     }
 }
 .imagen-acordeon {
-    width: 80%;
-    height: 80vh;
+    width: 60%;
+    height: 50%;
     align-items: center;
 }
 
@@ -124,20 +140,21 @@ div {
 
     div {
         display: flex;
+        flex-direction: column;
         align-items: center;
         text-decoration: none;
         background-color: #FFEEEE;
         color: rgb(77, 67, 144);
 
         iframe {
-            width: 600px;
-            height: 400px;
+            width: 60%;
+            height: 50%;
 
         }
 
         div {
 
-            margin: 40px;
+            margin: 20px;
             justify-content: center;
             display: flex;
             flex-direction: column;
@@ -145,14 +162,14 @@ div {
             background-color: #FFEEEE;
             text-decoration: none;
             color: darkslateblue;
-            font-size: 25px;
+            font-size: 20px;
             margin-top: 25px;
             padding: 10px;
             border-radius: 15px;
 
 
 
-            h2 {font-size: 20px;}
+            h2 {font-size: 25px;}
 
             p {font-size: 15px;}
 
@@ -163,7 +180,7 @@ div {
                 background-color: #FFEEEE;
                 text-decoration: none;
                 color: darkslateblue;
-                font-size: 25px;
+                font-size: 20px;
                 margin-top: 25px;
                 padding: 10px;
                 border-radius: 15px;

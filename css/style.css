@@ -28,8 +28,8 @@ header nav div div ul li a:hover {
   padding: 20px;
 }
 .footer img {
-  width: 200px;
-  height: 200px;
+  width: 75px;
+  height: 75px;
 }
 .footer ul li {
   display: flex;
@@ -58,6 +58,8 @@ body .titulo-principal {
   background-color: #E5E3C9;
   width: 100%;
   height: 90%;
+  display: flex;
+  align-items: flex-start;
 }
 body .titulo-principal a {
   font-display: flex;
@@ -85,18 +87,27 @@ body .titulo-principal a:hover {
   align-items: center;
   color: rgb(69, 51, 44);
 }
-.main h1 {
-  font-size: 50px;
+.main h2 {
+  font-size: 25px;
   font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }
 .main p {
-  font-size: 30px;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding: 10px;
 }
 .main a {
   background-color: rgba(116, 149, 154, 0.4980392157);
   text-decoration: none;
   color: darkslateblue;
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 25px;
   padding: 10px;
   border-radius: 15px;
@@ -117,6 +128,11 @@ div div div div div {
 }
 div div div div div .acordeon-uno p {
   font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding: 10px;
 }
 div div div div div a {
   background-color: rgba(116, 149, 154, 0.4980392157);
@@ -129,25 +145,26 @@ div div div div div a {
 }
 
 .imagen-acordeon {
-  width: 80%;
-  height: 80vh;
+  width: 60%;
+  height: 50%;
   align-items: center;
 }
 
 /*seccion nosotros */
 .mapa div {
   display: flex;
+  flex-direction: column;
   align-items: center;
   text-decoration: none;
   background-color: #FFEEEE;
   color: rgb(77, 67, 144);
 }
 .mapa div iframe {
-  width: 600px;
-  height: 400px;
+  width: 60%;
+  height: 50%;
 }
 .mapa div div {
-  margin: 40px;
+  margin: 20px;
   justify-content: center;
   display: flex;
   flex-direction: column;
@@ -155,13 +172,13 @@ div div div div div a {
   background-color: #FFEEEE;
   text-decoration: none;
   color: darkslateblue;
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 25px;
   padding: 10px;
   border-radius: 15px;
 }
 .mapa div div h2 {
-  font-size: 20px;
+  font-size: 25px;
 }
 .mapa div div p {
   font-size: 15px;
@@ -173,7 +190,7 @@ div div div div div a {
   background-color: #FFEEEE;
   text-decoration: none;
   color: darkslateblue;
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 25px;
   padding: 10px;
   border-radius: 15px;
